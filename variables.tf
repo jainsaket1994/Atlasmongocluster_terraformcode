@@ -6,11 +6,6 @@ variable "region" {
     type = string
 }
 
-variable "common_tags" {
-    description = "Additional resource tags"
-    type        = map(string)
-}
-
 variable "env_tags" {
     description = "Additional environment tags"
     type        = map(string)
